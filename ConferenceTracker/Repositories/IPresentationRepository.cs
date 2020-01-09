@@ -5,10 +5,10 @@ namespace ConferenceTracker.Repositories
 {
     public interface IPresentationRepository
     {
-        public void Create(Presentation presentation);
-        public void Delete(Presentation presentation);
-        public Presentation GetPresentation(int id);
-        public List<Presentation> GetAllPresentations();
-        public void Update(Presentation presentation);
+        void Create(Presentation presentation);
+        void Delete(Presentation presentation);
+        Presentation GetPresentation(int id);
+        List<Presentation> GetAllPresentations();
+        void Update(Presentation presentation);
     }
 }

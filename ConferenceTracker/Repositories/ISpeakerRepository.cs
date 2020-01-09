@@ -5,10 +5,10 @@ namespace ConferenceTracker.Repositories
 {
     public interface ISpeakerRepository
     {
-        public void Create(Speaker speaker);
-        public void Delete(Speaker speaker);
-        public Speaker GetSpeaker(int id);
-        public List<Speaker> GetAllSpeakers();
-        public void Update(Speaker speaker);
+        void Create(Speaker speaker);
+        void Delete(Speaker speaker);
+        Speaker GetSpeaker(int id);
+        List<Speaker> GetAllSpeakers();
+        void Update(Speaker speaker);
     }
 }
